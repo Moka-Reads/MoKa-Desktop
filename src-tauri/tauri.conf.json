@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "moka-desktop",
-    "version": "0.0.0"
+    "version": "0.0.1-beta"
   },
   "tauri": {
     "allowlist": {
@@ -21,7 +21,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "org.mokareads",
+      "identifier": "org.mokareads.desktop",
       "icon": [
         "icons/favicon-32x32.png",
         "icons/android-chrome-192x192.png",
@@ -35,10 +35,9 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "moka-desktop",
+        "title": "MoKa Reads Desktop",
         "width": 1200,
-        "height": 800, 
-        "url": "https://mokareads.org"
+        "height": 800
       }
     ]
   }
